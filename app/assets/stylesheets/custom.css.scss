@@ -1,0 +1,71 @@
+$navbar-default-bg: black;
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    float: left;
+    font-size: 2.1em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#logo:hover{
+    color:yellow;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+    text-decoration:none;
+
+}
+
+.jumbotron{
+    background-image: asset-url('pobrane.png');
+    background-size: cover;
+    height:500px;
+}
+
+.jumbotron h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+   letter-spacing: -1px;
+}
+
+.btn-xlarge{
+    font-size: 1.7em;
+    background-color: black;
+}
+
+.btn-danger{
+    hover:red;
+}
+
+small{
+    background-color:black;
+    font-color:white;
+}
+
+.article-actions{
+    border-top: 1px solid #eaeaea;
+    padding-top:1px;
+}
+
+.description{
+    margin-top: 0px;
+}
+
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1em;
+}
+
+
